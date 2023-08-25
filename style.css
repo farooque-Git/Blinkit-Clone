@@ -349,7 +349,7 @@ td {
   gap: 10px;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100%vh;
 }
 
 @media screen and (max-width: 768px) {
