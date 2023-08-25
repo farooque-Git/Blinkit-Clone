@@ -333,6 +333,13 @@ td {
   color: #666666;
   font-size: 13px;
 }
+.made-with {
+  display: flex;
+  background-color: var(--color-black);
+  color: white;
+  justify-content: center;
+ 
+}
 
 .owner {
   background-color: var(--color-black);
