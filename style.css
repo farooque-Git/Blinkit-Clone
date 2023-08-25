@@ -338,7 +338,6 @@ td {
   background-color: var(--color-black);
   color: white;
   justify-content: center;
- 
 }
 
 .owner {
@@ -350,13 +349,14 @@ td {
   gap: 10px;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  header {
+  .container {
     flex-direction: column !important;
   }
-  .container {
+  .wrapper {
     display: none;
   }
   .row-2 > p {
