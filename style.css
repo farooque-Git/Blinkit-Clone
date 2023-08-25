@@ -235,3 +235,131 @@ header .container {
   border: 1px solid var(--color-green);
   background-color: var(--color-lightgreen);
 }
+
+/* Footer */
+/* 
+.my-footer {
+  bottom: 500px;
+} */
+.row-3 {
+  color: #4a4a4a;
+  font-size: 13px;
+  /* padding-top: 20px; */
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  position: relative;
+  /* top: 85px; */
+  padding-left: 95px;
+  padding-bottom: 20px;
+  padding-right: 95px;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 85px;
+  /* padding-left: 85px;
+  padding-right: 85px;
+  padding-bottom: 30px;
+  padding-top: 20px; */
+  font-size: 13px;
+}
+.download-section {
+  /* padding-top: 10px; */
+  display: flex;
+  font-size: 18px;
+  font-weight: var(--fw-800);
+  justify-content: center;
+  padding-right: 20px;
+  color: rgb(116, 116, 116);
+}
+.download-btns {
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #213b50;
+  color: var(--color-white);
+  margin-inline: 5px;
+}
+.download-btns i {
+  padding: 5px;
+}
+
+.social-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-inline: 10px;
+}
+
+.social {
+  display: flex;
+}
+
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+
+  padding-left: 85px;
+  padding-top: 10px;
+}
+
+.useful-links {
+  flex: 2;
+}
+
+.categories-links {
+  flex: 3;
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+}
+td {
+  padding: 3px 10px;
+  color: #666666;
+  font-size: 13px;
+}
+
+.owner {
+  background-color: var(--color-black);
+  color: rgb(189, 189, 59);
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column !important;
+  }
+  .container {
+    display: none;
+  }
+  .row-2 > p {
+    width: 90%;
+  }
+
+  .row-1 > p {
+    margin-top: 20px;
+  }
+  .row-1 > div > h2 {
+    text-align: center;
+  }
+}
